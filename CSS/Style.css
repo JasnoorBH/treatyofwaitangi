@@ -1,0 +1,31 @@
+#wrapper{ 
+
+display: grid;
+    grid-template-columns: 3fr 3fr 1fr;
+    grid-template-areas: " header header header"
+                            " image image image"
+                           " main  sidebar sidebar" 
+                          " footer footer footer";_}
+
+div{font-size:50px}
+div{color:black}
+
+
+div{border:3px solid black;}
+#header{grid-area: header;}
+#image{ grid-area: image;}
+#main{grid-area:main;}
+#sidebar{grid-area: sidebar;}
+#footer{grid-area:footer;}
+#header{font-size: 60px}
+#header{font-family: cursive}
+#image{font-family: fantasy}
+#footer{font-family: fantasy}
+#image{font-size:35px}
+#footer{font-size:25px}
+#header{background-color:sandybrown}
+#image{background-color:seashell}
+#footer{background-color: seashell}
+#main{background-color: seashell}
+#main{font-size: 25px}
+#main{font-family: cursive}
